@@ -14,6 +14,9 @@ allprojects {
     apply plugin: 'com.github.kt3k.coveralls'
 
     repositories {
+        maven {
+            url "https://web.archive.org/web/20210502003943if_/https://dl.bintray.com/bertrandmartel/maven/"
+        }
         jcenter()
     }
 
